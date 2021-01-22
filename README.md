@@ -130,6 +130,7 @@ e = TfPoseEstimator(get_graph_path(args.model), target_size=(w, h))
 humans = e.inference(image)
 image = TfPoseEstimator.draw_humans(image, humans, imgcopy=False)
 ```
+tf
 
 If you installed it as a package,
 
